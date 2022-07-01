@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    background: #22252d;
+}
+.collabland-font {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+}
+.h-screen {
+    height: 100vh;
+}
+.h-full {
+    height: 100%;
+}
+.block {
+    display: block;
+}
+.jss4 {
+    width: 100%;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+.text-center {
+    text-align: center;
+}
+.py-1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgba(254,152,0,var(--tw-bg-opacity));
+    font-size: 17px;
+    padding: 6px;
+    font-weight: 400;
+}
+.w-full {
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c2e35;
+    padding: 20px 40px;
+    margin: 15px 40px 0px 40px;
+    border-radius: 90px;
+}
+.nav-bar-logo{
+    background-color: #2c2e35;
+    display: flex;
+    align-items: center;
+}
+.nav-bar-name{
+    background-color: #2c2e35;
+}
+.avatar{
+    width: 180px;
+    height: 30px;
+    background-color: #2c2e35
+}
+.first-name{
+    font-family: "Nunito",sans-serif;
+    color: #F56565;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0px 0px 3px;
+    background-color: #2c2e35
+}
+.second-name{
+    font-family: "Nunito",sans-serif;
+    color: #FFFFFF;
+    background-color: #2c2e35;
+    font-size: 14px;
+}
+.button-click{
+    margin-top: 80px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.main-button{
+    font-family: "Nunito",sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 12px 80px;
+    border-width: 2px;
+    outline: none;
+    border-radius: 9999px;
+    --tw-border-opacity: 1;
+    border-color: rgba(254,152,0,var(--tw-border-opacity));
+    background-color: rgba(46,49,57,var(--tw-bg-opacity));
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        background-color: #2c2e35;
+        padding: 20px 40px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+  }
